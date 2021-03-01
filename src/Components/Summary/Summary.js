@@ -26,6 +26,7 @@ const Summary = (props) => {
                 </ul>
                 <div className="card-footer">
                     <h5>Total Budget: ${budget}</h5>
+                    
                 </div>
             </div>
         </div>

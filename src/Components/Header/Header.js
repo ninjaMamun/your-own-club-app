@@ -5,11 +5,11 @@ import { faFutbol } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
-        <div className="nav-div-css">
+        <div className="">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
                     <a className="navbar-brand logo" href="/navbar"><FontAwesomeIcon icon={faFutbol}/> </a>
-                    <a className="navbar-brand" href="/navbar">Your Own Club</a>
+                    <a className="navbar-brand" href="/home">Your Own Club</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -28,6 +28,7 @@ const Header = () => {
                     </div>
                 </div>
             </nav>
+            
         </div>
     );
 };

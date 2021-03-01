@@ -22,10 +22,11 @@ const Player = () => {
     }
 
     return (
-
+        
         <div className="container">
             <div className="row ">
                 <div className="col-8 ">
+                <div className="d-flex justify-content-center hero-text"><h3>Select Your Players To Create Your Ultimate Club:</h3></div>
                     <div className="row d-flex justify-content-between">
                         {
                             players.map(player => <EachPlayer handleAddCartPlayer={handleAddCartPlayer} key={player.id} player={player}></EachPlayer>)

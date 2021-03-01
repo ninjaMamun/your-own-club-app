@@ -7,7 +7,7 @@
 } 
 
 .player-card-div{
-    border-radius:20px;
+    border-radius:15px;
     overflow:hidden;
     box-shadow: 2px 13px 38px -1px rgba(8,8,8,0.73);
     -webkit-box-shadow: 2px 13px 38px -1px rgba(8,8,8,0.73);

@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUserPlus, faMoneyBill, faInfo } from '@fortawesome/free-solid-svg-icons';
+import { faUserPlus, faMoneyBill, faInfo, faCheckSquare } from '@fortawesome/free-solid-svg-icons';
 import './EachPlayer.css'
 const EachPlayer = (props) => {
     const { Image, name, Salary, nationality, position, Age } = props.player;
+    const [isSelected , setIsSelected] = useState(false);
+    const addToClubLogo = <FontAwesomeIcon icon={faUserPlus} />;
+    const addedLogo = <FontAwesomeIcon icon={faCheckSquare} />;
     return (
         <div className="col-md-4 col-sm-6 player-div">
 
@@ -18,13 +21,16 @@ const EachPlayer = (props) => {
                     <li className="list-group-item"><FontAwesomeIcon icon={faMoneyBill} /> Salary : $ {Salary}</li>
                 </ul>
                 <div className="card-body">
-                    <button type="button" onClick={() => props.handleAddCartPlayer(props.player)} className="btn btn-success"><FontAwesomeIcon icon={faUserPlus} /> Add to Club</button>
+                    <button disabled={isSelected} type="button" onClick={() => {
+                        props.handleAddCartPlayer(props.player)
+                        setIsSelected(true)
+                    }} className="btn btn-outline-success">{
+                        isSelected? <span>{addedLogo} Added</span> : <span>{addToClubLogo} Add To Club</span>
+                    }</button>
                 </div>
             </div>
-
-
         </div>
     );
 };
 
-export default EachPlayer;
+export default EachPlayer; 

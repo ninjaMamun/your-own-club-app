@@ -13,6 +13,8 @@ const Summary = (props) => {
     return (
         <div className="summary-div">
 
+        <div className="d-flex justify-content-center hero-summary"></div>
+
             <div className="card cart-div">
                 <div className="card-header">
                     <h5>Total Players Selected: {props.cart.length}</h5>

@@ -3,7 +3,6 @@ import CartItem from '../CartItem/CartItem';
 import './Summary.css';
 const Summary = (props) => {
     const cart = props.cart;
-    console.log(cart);
 
     let budget = 0;
     for (let i = 0; i < cart.length; i++) {

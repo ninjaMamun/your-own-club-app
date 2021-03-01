@@ -1,8 +1,8 @@
 .cart-div{
-    height:500px;
-    overflow: scroll;
     position: fixed;
     width: 20%;
+    overflow: hidden;
+    border-radius: 15px;
     box-shadow: 2px 13px 38px -1px rgba(8,8,8,0.73);
     -webkit-box-shadow: 2px 13px 38px -1px rgba(8,8,8,0.73);
     -moz-box-shadow: 2px 13px 38px -1px rgba(8,8,8,0.73);
@@ -11,4 +11,36 @@
 }
 .hero-summary{
     margin-top: 81px;
+}  
+
+.summary-ul{
+    height:360px;
+    overflow: scroll;
+}
+
+
+ 
+@media only screen and (max-width: 768px) {
+    .cart-div img{
+        height: 50px;
+        width: 100%
+    }
+
+    .cart-div {
+      height: 400px;
+      width:115px;
+    }
+    .cart-header{
+        height:25%;
+    }
+    .cart-footer{
+        height:25%;
+    }
+    .cart-div h5{
+        font-size: 12px
+    }
+    .cart-div p{
+        font-size: 9px
+    }
+    
 }

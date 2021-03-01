@@ -19,13 +19,13 @@ const Summary = (props) => {
                 <div className="card-header">
                     <h5>Total Players Selected: {props.cart.length}</h5>
                 </div>
-                <ul className="list-group list-group-flush">
+                <ul className="list-group list-group-flush summary-ul">
                     {
                         cart.map(cartItem => <CartItem key={cartItem.id} cart={cartItem}></CartItem>)
                     }
                 </ul>
                 <div className="card-footer">
-                    <h6>Total Budget: ${budget}</h6>
+                    <h5>Total Budget: ${budget}</h5>
                 </div>
             </div>
         </div>

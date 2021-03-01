@@ -104,7 +104,7 @@ var players = [
         "name": "Eden Hazard",
         "Image": "https://images.daznservices.com/di/library/GOAL/e8/1f/eden-hazard-real-madrid-2020_1azsxtpvh0j7czdawl87gen06.jpg?t=-799965933&quality=100",
         "Salary": 50129964,
-        "nationality": "Brazil",
+        "nationality": "Belgium",
         "position": "Attacking midfielder",
         "Age": 30
     },

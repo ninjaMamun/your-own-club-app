@@ -6,16 +6,13 @@ import Player from './Components/PlayerField/Player';
 
 
 function App() {
-  
- 
+
+
   return (
     <div>
       <Header></Header>
 
       <Player></Player>
-
-
-      
 
     </div>
   );

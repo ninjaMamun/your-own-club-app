@@ -160,24 +160,6 @@ var players = [
         "nationality": "Spain",
         "position": "Midfielder/forward",
         "Age": 26
-    },
-    {
-        "id": 19,
-        "name": "Bastian Schweinsteiger",
-        "Image": "https://vz.cnwimg.com/thumb-1200x/wp-content/uploads/2014/06/Bastian-Schweinsteiger.jpg",
-        "Salary": 6100000,
-        "nationality": "Germany",
-        "position": "Midfielder",
-        "Age": 28
-    },
-    {
-        "id": 20,
-        "name": "Gianluigi Buffon",
-        "Image": "https://cdn.vox-cdn.com/thumbor/xAA8wpyB0DLcwXRxwlUDATBySok=/0x0:3000x1740/1200x800/filters:focal(877x310:1357x790)/cdn.vox-cdn.com/uploads/chorus_image/image/64145466/960064012.jpg.0.jpg",
-        "Salary": 1500000,
-        "nationality": "Italy",
-        "position": "Goalkeeper",
-        "Age": 34
     }
     
     

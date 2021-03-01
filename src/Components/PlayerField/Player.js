@@ -9,14 +9,14 @@ import Summary from '../Summary/Summary';
 const Player = () => {
 
     const [players, setPlayers] = useState([]);
-    
+
     useEffect(() => {
         setPlayers(fakeData);
     }, [])
 
     const [cart, setCart] = useState([]);
 
-    const handleAddCartPlayer = (player) =>{
+    const handleAddCartPlayer = (player) => {
         const newCart = [...cart, player];
         setCart(newCart);
     }
@@ -26,7 +26,7 @@ const Player = () => {
         <div className="container">
             <div className="row ">
                 <div className="col-8 ">
-                    <div className="row d-flex">
+                    <div className="row d-flex justify-content-between">
                         {
                             players.map(player => <EachPlayer handleAddCartPlayer={handleAddCartPlayer} key={player.id} player={player}></EachPlayer>)
                         }

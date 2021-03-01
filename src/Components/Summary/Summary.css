@@ -2,4 +2,10 @@
     height:500px;
     overflow: scroll;
     position: fixed;
+    width: 20%;
+    box-shadow: 2px 13px 38px -1px rgba(8,8,8,0.73);
+    -webkit-box-shadow: 2px 13px 38px -1px rgba(8,8,8,0.73);
+    -moz-box-shadow: 2px 13px 38px -1px rgba(8,8,8,0.73);
+    
+    
 }

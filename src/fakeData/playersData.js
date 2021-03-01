@@ -101,12 +101,12 @@ var players = [
     },
     {
         "id": 12,
-        "name": "Neymar",
+        "name": "Eden Hazard",
         "Image": "https://cdn.images.express.co.uk/img/dynamic/67/590x/Neymar-PSG-salary-1260339.jpg?r=1585167146165",
         "Salary": 50129964,
         "nationality": "Brazil",
-        "position": "Forward",
-        "Age": 20
+        "position": "Attacking midfielder",
+        "Age": 30
     },
     {
         "id": 13,
